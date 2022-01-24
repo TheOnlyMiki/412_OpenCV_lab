@@ -19,7 +19,7 @@ source ~/catkin_ws/devel/setup.bash
 ### Launching world and turtlebot
 `roslaunch lab_2 main.launch`
 
-# Instructions and Potentailly Helpfur Resources (non-exhaustive)
+# Instructions and Potentailly Helpful Resources (non-exhaustive)
 
 Note: the instruction below is mainly for python. If you are using other language, you need to find the corresponding class. 
 
