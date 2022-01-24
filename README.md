@@ -19,6 +19,8 @@ source ~/catkin_ws/devel/setup.bash
 
 # Instructions and Potentailly Helpfur Resources (non-exhaustive)
 
+Note: the instruction below is mainly for python. If you are using other language, you need to find the corresponding class. 
+
 First of all, we have to know that ROS store images which get from it's sensor by it own message formate - `senor_msg/Image`. However we can not using these meesages directly to work with Computer Vision algorithm. Therefore, we need to use `CvBridge`, which is a ROS library that provides an interface between ROS and OpenCV, to make conncetion and convert ROS images to OpenCV formate. After you make the package, in the `src` folder, there is a simple python file whcih shows how to use CvBridge and open the camera of robot, called `camera.py`. If you want to know more infromation about this, you can go to http://wiki.ros.org/cv_bridge/Tutorials/ConvertingBetweenROSImagesAndOpenCVImagesPython.
 
 In this lab, you also need to know the how to detect colors in images. In order to descibe a color, We need to know the properties that make up this color. there are many way to define a color, a well knowed approach is RGB which describe all the colors by mixing red, green, and blue(Note: in Pyhton, ordering change to BGR). However, OpenCV uses HSV(Hue Saturation Value) model to describe color. If you want to know more about HSV model, please visit https://en.wikipedia.org/wiki/HSL_and_HSV . Therefore, in order to get color information in an image for specific model from other model, we need to use a function which include in `cv2` library called `cvtColor(src, code)`. Forexample, if you we want to convert a RGB image to HSV image in python, it should be like `cvtColor(image, cv2.COLOR_BGR2HSV)`. OpenCV also enable us to make other converting, such as RGB to Gray, etc. If you want to learn more about color converting 
@@ -29,7 +31,9 @@ After we know how to describe color, we need to know how to handle color. Now, c
 
 # Task 
 
-In this lab you need to let your robot move along with the track on the ground. track is split in differents color.
+In this lab you need to let your robot move along with the track on the ground, and stop after your robot seeing stop sign. 
+
+track is splited in differents color.
 
 Whtie track is normal track. 
 
