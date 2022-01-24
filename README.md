@@ -30,17 +30,25 @@ After we know how to describe color, we need to know how to handle color. Now, c
 # Task 
 
 In this lab you need to let your robot move along with the track on the ground. track is split in differents color.
+
 Whtie track is normal track. 
+
 Blue track is accelertation belt which required you to increase your robot's speed to 1.5 times. 
+
 Green tracks is a shortcut, you should let your robot change track from white to green and back to whtie when you pass green track. 
+
 Red track is the final position where used to stop your robot.
 
 
 # Grading
 40%, can completely follow the entire path, which is the turtlebot able to follow the WHITE line perfectly. (shortcut is special)
+
 20%, the GREEN line (shortcut) can be filtering, and passed completely. (Hardest part, because incorrect timing of switching color filters will cause the robot to walk back along the white line)
+
 10%, the BLUE line (acceleration band) can be filtering, and passed completely by increasing half speed (1.5x).
+
 10%, the Red floor tiles (speed bumps) can be filtering, and slowed down by a half speed (0.5x), then start matching Stop-Sign icon.
+
 20%, Turtlebot can effectively match the Stop-Sign icon, and should stopeed before passed red area.
 
 
