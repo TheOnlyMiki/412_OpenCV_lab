@@ -31,7 +31,7 @@ After we know how to describe color, we need to know how to handle color. Now, c
 
 # Task 
 
-In this lab you need to let your robot move along with the track on the ground, and stop after your robot seeing stop sign. 
+In this lab, you need to let your robot move along with the track on the ground, and stop after your robot seeing stop sign. 
 
 track is splited in differents color.
 
@@ -60,14 +60,3 @@ Red track is the final position where used to stop your robot.
 `roslaunch lab_2 main.launch`
 
 
-### Turtlebot3 install
-```
-mkdir -p ~/catkin_ws/src/
-cd ~/catkin_ws/src/
-git clone -b noetic-devel https://github.com/ROBOTIS-GIT/turtlebot3.git
-git clone -b noetic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
-git clone https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
-
-cd ~/catkin_ws && catkin_make
-source ~/catkin_ws/devel/setup.bash
-```
