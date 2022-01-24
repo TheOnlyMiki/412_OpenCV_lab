@@ -29,11 +29,11 @@ After we know how to describe color, we need to know how to handle color. Now, c
 
 # Task 
 
-In this lab you need to let your robot move along with the track on the ground. track is split in differents color. Whtie track is normal track. Blue track is accelertation belt which
-
-required you to increase your robot's speed to 1.5 times. Green tracks is a shortcut, you should let your robot change track from white to green and back to whtie 
-
-when you pass green track. Red track is the final position where used to stop your robot.
+In this lab you need to let your robot move along with the track on the ground. track is split in differents color.
+Whtie track is normal track. 
+Blue track is accelertation belt which required you to increase your robot's speed to 1.5 times. 
+Green tracks is a shortcut, you should let your robot change track from white to green and back to whtie when you pass green track. 
+Red track is the final position where used to stop your robot.
 
 
 # Grading
