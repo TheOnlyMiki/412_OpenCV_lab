@@ -16,6 +16,8 @@ cd ~/catkin_ws && catkin_make
 source ~/catkin_ws/devel/setup.bash
 ```
 
+### Launching world and turtlebot
+`roslaunch lab_2 main.launch`
 
 # Instructions and Potentailly Helpfur Resources (non-exhaustive)
 
@@ -31,21 +33,20 @@ After we know how to describe color, we need to know how to handle color. Now, c
 
 # Task 
 
-In this lab, you need to let your robot move along with the track on the ground, and stop after your robot seeing stop sign. 
+In this lab, students need to let their robot move along with the track on the ground, and stop after their robot seeing stop sign. 
 
 track is splited in differents color.
 
 Whtie track is normal track. 
 
-Blue track is accelertation belt which required you to increase your robot's speed to 1.5 times. 
+Blue track is accelertation zone where required you to increase your robot's speed to 1.5 times. 
 
-Green tracks is a shortcut, you should let your robot change track from white to green and back to whtie when you pass green track. 
+Green tracks is a shortcut, you should let your robot change track from white to green. 
 
-Red track is the final position where used to stop your robot.
-
+Red track is the deceleration zone where the speed of robot will decrease and stop before moving out from the zone.
 
 # Grading
-40%, can completely follow the entire path, which is the turtlebot able to follow the WHITE line perfectly. (shortcut is special)
+40%, turtlebot can completely follow the entire path, which is the turtlebot able to follow the WHITE line perfectly.
 
 20%, the GREEN line (shortcut) can be filtering, and passed completely. (Hardest part, because incorrect timing of switching color filters will cause the robot to walk back along the white line)
 
@@ -56,7 +57,6 @@ Red track is the final position where used to stop your robot.
 20%, Turtlebot can effectively match the Stop-Sign icon, and should stopeed before passed red area.
 
 
-### Launching world and turtlebot
-`roslaunch lab_2 main.launch`
+
 
 
