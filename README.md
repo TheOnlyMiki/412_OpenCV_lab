@@ -87,3 +87,7 @@ Red track is the deceleration zone where the speed of robot will decrease and st
 **10%**, Red floor tiles (speed bumps) can be filtering, and slowed down by a half speed (0.5x), then start matching Stop-Sign icon.
 
 **20%**, Turtlebot can effectively match the Stop-Sign icon, and should stopeed before passed red area.
+
+# Reference
+
+https://github.com/utra-robosoccer/Computer-Vision-Tutorial
