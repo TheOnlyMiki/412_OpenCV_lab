@@ -91,10 +91,10 @@ Red track is the deceleration zone where the speed of robot will decrease and st
 # Submission
 
 ### Eclass
-Recording a video for your robot that handle the task, and submitting the video on eclass.
+Recording a video for your robot that handle the task, and submitting the video on eclass.(Note: If the file is >100MB, you can instead submit a link to the file on UofA's Google Drive, and do not forget sharing your Google Drvie.)
 
 ### Github
-submit your code, and finish answer.md
+Submitting your code, and finishing Answer.md
 
 # Reference
 
