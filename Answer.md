@@ -1,6 +1,6 @@
-Full name:
+Full Name:
 
-Ccid:
+CCID:
 
 
 1. What did you find interesting in the lab? Or what challenges did you face in the lab?
