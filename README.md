@@ -88,6 +88,14 @@ Red track is the deceleration zone where the speed of robot will decrease and st
 
 **20%**, Turtlebot can effectively match the Stop-Sign icon, and should stopeed before passed red area.
 
+# Submission
+
+### Eclass
+Recording a video for your robot that handle the task, and submitting the video on eclass.
+
+### Github
+submit your code, and finish answer.md
+
 # Reference
 
 World model and camera hardware that used in this Lab are designed by the repo from https://github.com/utra-robosoccer.
