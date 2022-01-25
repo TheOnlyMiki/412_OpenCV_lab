@@ -90,4 +90,4 @@ Red track is the deceleration zone where the speed of robot will decrease and st
 
 # Reference
 
-https://github.com/utra-robosoccer/Computer-Vision-Tutorial
+the idea and some materials are designed based on the project from https://github.com/utra-robosoccer.
