@@ -78,7 +78,7 @@ Red track is the deceleration zone where the speed of robot will decrease and st
 # Grading
 **40%**, Turtlebot can completely follow the entire path, which is the turtlebot able to follow the WHITE line perfectly.
 
-**20%**, GREEN line (shortcut) can be filtering, and passed completely. (Hardest part, because incorrect timing of switching color filters will cause the robot to walk back along the white line)
+**20%**, GREEN line (shortcut) can be filtering, and passed completely. 
 
 **10%**, BLUE line (acceleration band) can be filtering, and passed completely by increasing half speed (1.5x).
 
