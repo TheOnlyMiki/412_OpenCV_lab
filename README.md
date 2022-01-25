@@ -69,16 +69,18 @@ Track is splited in differents color.
 
 Whtie track is normal track. 
 
-Blue track is accelertation zone where required you to increase your robot's speed to 1.5 times. 
+Blue track is accelertation zone where required students to increase your robot's speed to 1.5 times. 
 
-Green tracks is a shortcut, you should let your robot change track from white to green. 
+Green tracks is a shortcut, students should let their robot change track from white to green. 
 
 Red track is the deceleration zone where the speed of robot will decrease and stop before moving out from the zone.
+
+<img src="https://github.com/TheOnlyMiki/CMPUT-412-Lab-3-OpenCV-Test/blob/main/simple.png?raw=true" width="70%" height="70%">
 
 # Grading
 **40%**, Turtlebot can completely follow the entire path, which is the turtlebot able to follow the WHITE line perfectly.
 
-**20%**, GREEN line (shortcut) can be filtering, and passed completely. 
+**20%**, GREEN line (shortcut) can be filtering, and passed completely.
 
 **10%**, BLUE line (acceleration band) can be filtering, and passed completely by increasing half speed (1.5x).
 
