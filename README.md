@@ -75,6 +75,8 @@ Green tracks is a shortcut, students should let their robot change track from wh
 
 Red track is the deceleration zone where the speed of robot will decrease and stop before moving out from the zone.
 
+when student's robot detect colorful track and stop sign, student should print some message on the terminal, for example, if the robot detect blue track, print "detect blue track, speed up" etc.
+
 <img src="https://github.com/TheOnlyMiki/CMPUT-412-Lab-3-OpenCV-Test/blob/main/simple.png?raw=true" width="70%" height="70%">
 
 # Grading
