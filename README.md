@@ -93,7 +93,7 @@ when student's robot detect colorful track and stop sign, student should print s
 # Submission
 
 ### Eclass
-Recording a video for your robot that handle the task, and submitting the video on eclass.(Note: If the file is >100MB, you can instead submit a link to the file on UofA's Google Drive, and do not forget sharing your Google Drvie.)
+Recording a video for your robot that handle the task, and submitting the video on eclass. (Note: If the file is >100MB, you can instead submit a link to the file on UofA's Google Drive, and do not forget sharing your Google Drvie.)
 
 ### Github
 Submitting your code, and finishing Answer.md
